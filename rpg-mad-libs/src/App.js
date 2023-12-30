@@ -6,6 +6,7 @@ function App() {
   const [fullList, setFullList] = useState({})
   const [usedList, setUsedList] = useState("")
   const [currentList, setCurentList] = useState("")
+  const [listOfLists, setListOfLists] = useState("")
   useEffect(()=> {}, [])
   return (
     <div className="App">
